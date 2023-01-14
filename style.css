@@ -64,4 +64,28 @@
     border-radius: 25px;
     margin-top: 26px;
 }
+
+@media only screen and (max-width: 576px){
+    .homepage-area{
+        width: 100%;
+        margin: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-bar{
+        flex-direction: column;
+    }
+    .main-display{
+        background-position: center;
+    }
+    
+    .main-display{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+}
+
+
 /* ----Homepage area End---- */
